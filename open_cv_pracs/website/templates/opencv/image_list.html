@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Определение пластика</title>
+</head>
+<body>
+<img align="center" src="{% url 'video_filter.url' %}" alt=""></img>
+<!--p><strong>Количество обнаруженных объектов:</strong> {{ score }}</p-->
+<p></p>
+<a href="{% url 'upload_image' %" class="btn btn-primary">Добавить изображение</a>
+
+<h2>Список изображений</h2>
+<!--{% for img in images %}-->
+<div>
+    <li><img width="1600" height="800" src="{% url 'media_file_YOLO_opencv' media_file.id %}"></li>
+</div>
+{% endfor %}
+</body>
+</html>

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<img src="{% url 'video_filter.url' %}" alt=""></img>
+<h2>{{ image.title }}</h2>
+<img id="video-stream" src="{% url 'video_filter' image.id %}"/>
+</body>
+</html>
