@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['blue', 'brown', 'green']
+
+roboflow:
+  workspace: foxyal
+  project: color_pet_plastic_bottle
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/foxyal/color_pet_plastic_bottle/dataset/1
